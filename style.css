@@ -1,0 +1,116 @@
+@font-face {
+   src: url("./fonts/Inter-Variable.ttf");
+   font-family: inter;
+}
+
+html, body {
+    margin: 2px;
+    padding: 0;
+    background-color: hsl(203, 57%, 97%);
+    height: 100%;
+    cursor: pointer;
+    
+}
+hr{
+    color: hsla(184, 45%, 20%, 0.356);
+}
+
+h1,h2,h3{
+    color: hsl(184, 46%, 20%);
+    text-align: center;
+}
+h4{
+    color: hsl(184, 46%, 20%);
+}
+
+header {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: hsl(220, 23%, 97%);
+    font-family:  inter ,'Trebuchet MS', sans-serif;
+    min-height: 20vh;
+
+}
+#headerIcons
+{
+    font-size: 1.5rem;
+}
+
+.section
+{
+    min-height: 12vh;
+}
+
+p{
+    color: hsl(184, 45%, 34%);
+    font-size: 1.05rem;
+}
+li{
+    color: hsl(185, 45%, 21%);
+}
+
+#skills
+{
+    min-height: 20vh;
+}
+
+#projects
+{
+    min-height: 20px;
+}
+
+#experience
+{
+    min-height: 20px;
+}
+
+
+#contacts
+{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+}
+
+textarea
+{
+    width: 300px;
+    height: 100px;
+    padding-left: 10px; 
+    text-align: left;   
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+button{
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: hsl(180, 29%, 46%);
+}
+button:hover
+{
+    background-color: hsl(180, 29%, 66%);
+}
+button:active{
+    background-color: hsl(180, 29%, 76%);
+}
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    color: hsla(0, 0%, 50%, 0.568);
+}
+
+.fa-brands.fa-linkedin{
+    color: hsl(240, 58%, 27%);
+    
+}
+.fa-regular.fa-copyright{
+    margin-right: 4px;
+}

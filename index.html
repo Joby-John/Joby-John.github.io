@@ -3,87 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joby John - Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .header, .section {
-            padding: 20px;
-            margin-bottom: 10px;
-        }
-        .header {
-            background: #f4f4f4;
-        }
-        .section {
-            border: 1px solid #ccc;
-        }
-        .section h2 {
-            margin-top: 0;
-        }
-    </style>
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/d912e97b46.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Joby John</h1>
-            <p>TEL: +91 8289897307</p>
-            <p>Email: <a href="mailto:joby432john@gmail.com">joby432john@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/joby-john-59b756245" target="_blank">linkedin.com/in/joby-john-59b756245</a></p>
+
+    <header>
+        <h1>Joby John</h1>
+        <p>Software Developer</p><br>
+        <div id="headerIcons">
+            <a href="mailto:"><i class="fa-regular fa-envelope"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a></i>
         </div>
+        
+        <hr>
+    </header>
 
-        <div class="section">
-            <h2>Projects/Experience</h2>
-            <p><strong>2024.01-2024.04 - Class Daily - Website</strong></p>
-            <ul>
-                <li>Responsible for Developing Functioning Website: fully functional website with front end developed using HTML, CSS, and JS for dynamic contents, used PHP and SQL for back-end operations.</li>
-                <li>Research and Determining features: To standout from similar type of websites, major decisions regarding features to implement and to increase usability for target customers.</li>
-                <li>Topic and Use: Website can track the academic activities given each day and can keep track of notes of each day subject-wise.</li>
+    <main>
+        <div class="section" id="aboutMe">
+            <h3>About Me</h3>
+            <p id="aboutIntro">I am currently pursuing a Master of Computer Applications (MCA) at TKM Engineering 
+                College, with a strong foundation in web and mobile application development. 
+                I completed my Bachelor's in Computer Applications (BCA) from the University of 
+                Kerala, where I gained extensive knowledge in programming languages and core computer 
+                science subjects.</p>
+            <p id="projectP">
+                I have experience working on various projects, including developing fully functional websites and Android mobile applications. Some of my recent projects include:
+            </p>
+            <ul id="projectList">
+                <li>Class Daily: A website for tracking academic activities and notes, built using HTML, CSS, JavaScript, PHP, and SQL.</li>
+                <li>Food Flag: An Android mobile application that connects donors and needy people for food donations, developed using Flutter, Dart, Firebase, and Google Maps API.</li>
+                <li>WorkFlo: A task management website that streamlines work assignment and project status tracking for customers, built with a front-end using HTML, CSS, JS, and a back-end with PHP and SQL.</li>
             </ul>
 
-            <p><strong>2023.12 - 2024.02 - Food Flag - Android Mobile Application</strong></p>
+            <p id="stackP">I am proficient in a variety of technologies, including:</p>
+            <ul id="stackList">
+                <li>Languages: C++, Python, HTML, CSS, JavaScript, Dart</li>
+                <li>Frameworks/Libraries: React.js, Node.js</li>
+                <li>Databases: MongoDB, SQL</li>
+                <li>Mobile Development: Flutter</li>
+                <li>Cloud & DevOps: AWS, Docker, Firebase</li>
+
+            </ul>
+            <p>I am passionate about Artificial Intelligence (AI), web development, and application development, with hands-on experience 
+                in building full-stack applications using the MERN stack (MongoDB, Express, React, Node.js).</p>
+                <p>In my personal time, I enjoy listening to music and reading books. My future goals include mastering emerging technologies and bringing my innovative ideas to life.</p>
+
+        </div>
+        <hr>
+
+        <div id="skills" class="section">
+            <h3>Skills</h3>
+            <h4>Programming Languages</h4>
             <ul>
-                <li>Responsible for Conception and Development: Used Flutter, Dart as the Front End, and Firebase for back-end. Simplified authorization processes with GoogleAuth, used APIs like Google's Map API and third-party packages for added functionality.</li>
-                <li>Donate Food: Streamlines the process of connecting needy and the food in just a single click, provided multiple ways to donate food.</li>
-                <li>Assist with tracking: Using Firestore as database to keep track of claims and flag raises, used maps to show routes and location of markers.</li>
+                <li>C++: Proficient in object-oriented programming and data structures.</li>
+                <li>Python: Experienced in writing scripts, automating tasks, and developing applications.</li>
+                <li>JavaScript: Skilled in building dynamic web applications and using frameworks like React.js.</li>
+                <li>Dart: Used for mobile application development in Flutter.</li>
             </ul>
 
-            <p><strong>2021 - WorkFlo - Website</strong></p>
+            <h4>Web Development</h4>
             <ul>
-                <li>Responsible for Development: Fully functional website with front end developed using HTML, CSS, and JS for dynamic contents, used PHP and SQL for back-end operations.</li>
-                <li>Streamline Work Assignment: Manages assignment of tasks to employees by managers, also allows customers to check the status of their project.</li>
+                <li>HTML, CSS, JavaScript: Strong knowledge in creating responsive, user-friendly websites.</li>
+                <li>React.js: Proficient in building modern web applications with reusable components.</li>
+                <li>Node.js: Experience in developing server-side applications and RESTful APIs.</li>
+                <li>Express.js: Used for back-end development with Node.js.</li>
+            </ul>
+
+            <h4>Mobile Application Development</h4>
+            <ul>
+                <li>Flutter: Proficient in building cross-platform mobile apps.</li>
+                <li>Google Maps API: Integrated location services into mobile applications.</li>
+            </ul>
+
+            <h4>Databases</h4>
+            <ul>
+                <li>MongoDB: Experience in NoSQL databases, used for full-stack MERN applications.</li>
+                <li>SQL: Proficient in relational databases like MySQL and writing queries.</li>
+            </ul>
+
+            <h4>Cloud & DevOps</h4>
+            <ul>
+                <li>AWS: Hands-on experience with deploying and managing applications on the cloud.</li>
+                <li>Docker: Familiar with containerizing applications for scalable deployments.</li>
+                <li>Firebase: Experience using Firebase for mobile app back-end services.</li>
+            </ul>
+
+            <h4>Version Control & Collaboration</h4>
+            <ul>
+                <li>Git & GitHub: Strong understanding of version control, branching, and collaboration workflows.</li>
+            </ul>
+
+            <h4>Tools & Frameworks</h4>
+            <ul>
+                <li>Firebase: Used for real-time databases and authentication in mobile applications.</li>
+                <li>Bootstrap & SCSS: Knowledge of CSS frameworks and preprocessors to create responsive designs.</li>
             </ul>
         </div>
-
-        <div class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: C++, PYTHON, C, JAVA, DART</li>
-                <li>Android: Flutter, DART, Firebase</li>
-                <li>Front End: HTML, CSS, Javascript</li>
-                <li>Backend: PHP, MYSQL</li>
-                <li>Miscellaneous: AWS, EC2, S3 Bucket, Docker, Git, Linux, Firestore</li>
-            </ul>
+        <hr>
+        <div id="projects" class="section">
+            
         </div>
+        <hr>
+        <div id="experience" class="section">
 
-        <div class="section">
-            <h2>Education</h2>
-            <p><strong>2023-2025 - TKM College of Engineering - Masters in Computer Applications</strong></p>
-            <ul>
-                <li>Major courses: Machine Learning, Web Development, Mobile Application Development, Object Oriented Programming etc.</li>
-                <li>GPA: 9.15/10</li>
-            </ul>
-            <p><strong>2021 - University of Kerala - Bachelors in Computer Applications</strong></p>
-            <ul>
-                <li>Major courses: Web Development, Object Oriented Programming, Operating Systems, Computer Networks etc.</li>
-            </ul>
         </div>
-    </div>
+        <hr>
+        <div id="contacts" class="section">
+            <h4>Contact me</h4>
+            <!-- store message as json in github itself -->
+            <textarea placeholder="Type here..."></textarea>
+            <button type="submit" id="sendBtn">Send</button>
+        </div>
+    </main>
+
+
+    <hr>
+    <footer>
+        Joby John
+        <i class="fa-regular fa-copyright"></i>
+     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
